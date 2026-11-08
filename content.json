@@ -17,7 +17,7 @@
       "Lead Generation"
     ],
     "headline": "I turn ad spend into qualified leads and real revenue.",
-    "intro": "4 years running paid and organic growth for healthcare, medical education, e-commerce, fashion, fintech, media and retail brands. I plan the funnel, build the creatives, structure and test the campaigns, and stay with the sales team until leads become paying customers.",
+    "intro": "Performance marketer for brands that want growth they can measure. Meta, Google and TikTok Ads, content and SEO, planned and run end to end for healthcare, education, e-commerce, fashion, solar and media brands.",
     "stats": [
       {
         "value": "4 yrs",
@@ -80,10 +80,32 @@
         }
       ],
       "note": "Source: Meta Ads Manager, medical education account, Jan to Jul 2026."
-    }
+    },
+    "greeting": "Hi, I'm Abdul Rehman",
+    "headlineStart": "I turn ad spend into",
+    "rotating": [
+      "qualified leads.",
+      "booked calls.",
+      "real revenue.",
+      "loyal audiences."
+    ],
+    "chips": [
+      {
+        "value": "7,600+",
+        "label": "leads in 6 months"
+      },
+      {
+        "value": "$0.60",
+        "label": "lowest cost per lead"
+      },
+      {
+        "value": "Open",
+        "label": "to remote roles"
+      }
+    ]
   },
   "about": {
-    "title": "Strategy and execution, end to end.",
+    "title": "I don't stop at clicks. I stay until the sale.",
     "paragraphs": [
       "I started freelancing for local businesses in Lahore in 2022, while I was still studying. Since then I have worked inside a software house, a fintech startup, a news brand and two medical aesthetics groups, and I have built and grown brands in e-commerce, fashion, solar, education and real estate alongside every full-time role.",
       "My strongest work is lead generation on Meta. For a UK-standard aesthetics academy I brought in more than 7,600 doctor leads at about $1 each, which turned into 45 to 50 enrollments and over PKR 1 crore (about $35K) in revenue every month.",
@@ -91,27 +113,139 @@
     ],
     "focus": [
       {
+        "icon": "target",
         "title": "Lead generation",
-        "text": "Lead form and funnel campaigns that keep cost per lead low while quality stays high enough for sales to close."
+        "text": "Campaigns that keep cost per lead low and lead quality high enough to close.",
+        "stat": {
+          "to": 10000,
+          "suffix": "+",
+          "label": "leads generated"
+        }
       },
       {
+        "icon": "flask",
         "title": "Testing that moves budget",
-        "text": "ABO and CBO structures, audience and creative A/B tests, and budget shifted to whatever the data says is winning."
+        "text": "Audience and creative tests in ABO, winners scaled in CBO.",
+        "stat": {
+          "to": 50,
+          "label": "ad sets tested in one account"
+        }
       },
       {
+        "icon": "sprout",
         "title": "Organic growth",
-        "text": "Content plans and posting systems that grew a news brand to monetization on YouTube and Facebook with zero ad spend."
+        "text": "Content systems that took a news brand to monetization on two platforms.",
+        "stat": {
+          "to": 6.8,
+          "decimals": 1,
+          "suffix": "M+",
+          "label": "organic views"
+        }
       },
       {
-        "title": "Websites that sell",
-        "text": "Shopify and WordPress stores built for speed and conversions, then scaled with Meta Ads."
-      },
-      {
+        "icon": "team",
         "title": "Team leadership",
-        "text": "Running sales, creative and content teams across branches so marketing and sales pull in the same direction."
+        "text": "Sales, creative and content teams across four clinic branches.",
+        "stat": {
+          "to": 4,
+          "label": "clinic branches led"
+        }
       }
-    ]
+    ],
+    "industries": [
+      "Healthcare",
+      "Medical education",
+      "E-commerce",
+      "Fashion",
+      "Solar & electronics",
+      "News media",
+      "Fintech",
+      "Real estate",
+      "Education"
+    ],
+    "cardTitle": "From freelance gigs in 2022 to running marketing for four clinic branches."
   },
+  "services": [
+    {
+      "icon": "meta",
+      "title": "Meta Ads",
+      "text": "Facebook and Instagram campaigns for leads and sales, from pixel setup to scaling winners.",
+      "tags": [
+        "Lead Forms",
+        "Retargeting",
+        "ABO / CBO"
+      ]
+    },
+    {
+      "icon": "google",
+      "title": "Google Ads",
+      "text": "Search, Display and YouTube campaigns that reach people already looking for what you sell.",
+      "tags": [
+        "Search",
+        "YouTube",
+        "Display"
+      ]
+    },
+    {
+      "icon": "tiktok",
+      "title": "TikTok Ads",
+      "text": "Short video ads made for how people actually scroll, test and buy on TikTok.",
+      "tags": [
+        "Video Ads",
+        "Lead Gen"
+      ]
+    },
+    {
+      "icon": "social",
+      "title": "Social Media Management",
+      "text": "Daily posting, community and channel growth across Facebook, Instagram, YouTube and TikTok.",
+      "tags": [
+        "Calendars",
+        "Community",
+        "Reporting"
+      ]
+    },
+    {
+      "icon": "content",
+      "title": "Content Strategy",
+      "text": "Content pillars, hooks and formats planned around what your audience saves, shares and buys.",
+      "tags": [
+        "Pillars",
+        "Reels & Shorts",
+        "Copy"
+      ]
+    },
+    {
+      "icon": "growth",
+      "title": "Growth Planning",
+      "text": "A clear plan for budget, channels, targets and milestones, so every rupee or dollar has a job.",
+      "tags": [
+        "Budget Split",
+        "KPIs",
+        "Roadmap"
+      ]
+    },
+    {
+      "icon": "funnel",
+      "title": "Lead Funnels & CRM",
+      "text": "Offers, forms and follow-up flows that get leads contacted fast and moved to a sale.",
+      "tags": [
+        "Instant Forms",
+        "GoHighLevel",
+        "HubSpot"
+      ]
+    },
+    {
+      "icon": "seo",
+      "title": "SEO & Websites",
+      "text": "Technical and on-page SEO, plus Shopify and WordPress stores built to convert paid traffic.",
+      "tags": [
+        "Semrush",
+        "Shopify",
+        "WordPress"
+      ]
+    }
+  ],
   "skills": [
     {
       "group": "Paid advertising",
@@ -933,24 +1067,29 @@
   },
   "process": [
     {
+      "icon": "search",
       "title": "Audit",
-      "text": "Check tracking, pixel, forms, account structure and past data before any budget goes live."
+      "text": "Tracking, pixel, forms, account structure and past data, checked before any budget goes live."
     },
     {
+      "icon": "map",
       "title": "Plan",
-      "text": "Define the audience, the offer and the funnel, and set the CPL and revenue targets."
+      "text": "Audience, offer, funnel and targets for CPL and revenue, agreed upfront."
     },
     {
+      "icon": "flask",
       "title": "Launch & test",
-      "text": "Run audiences and creatives against each other in ABO, then scale winners in CBO."
+      "text": "Audiences and creatives tested against each other, winners scaled."
     },
     {
+      "icon": "tune",
       "title": "Optimise",
-      "text": "Kill what is expensive, move money to what converts, refresh creatives before fatigue."
+      "text": "Expensive ads cut, budget moved to what converts, creatives refreshed before fatigue."
     },
     {
+      "icon": "loop",
       "title": "Close the loop",
-      "text": "Work with sales and the CRM so every lead is followed up and tied back to revenue."
+      "text": "Sales and CRM connected so every lead is followed up and tied to revenue."
     }
   ],
   "education": [
@@ -972,5 +1111,160 @@
     "whatsapp": "923244395583",
     "linkedin": "https://www.linkedin.com/in/rana-abdul-rehman-",
     "whatsappMessage": "Hi Abdul, I saw your portfolio and would like to talk about "
-  }
+  },
+  "brands": [
+    "London Aesthetics UK",
+    "French Medical Aesthetics",
+    "PNJ News",
+    "Shaheen Electronics & Solar",
+    "Herbs of Paradise",
+    "Meshaz Cosmetics",
+    "Techionik",
+    "ApnaCrowdFunding",
+    "Skills Up Academy",
+    "Ademoh"
+  ],
+  "impact": [
+    {
+      "to": 10000,
+      "suffix": "+",
+      "label": "leads generated"
+    },
+    {
+      "to": 1.0,
+      "prefix": "~$",
+      "decimals": 2,
+      "label": "average cost per lead"
+    },
+    {
+      "to": 6.8,
+      "suffix": "M+",
+      "decimals": 1,
+      "label": "organic views"
+    },
+    {
+      "to": 50,
+      "prefix": "45-",
+      "label": "doctors enrolled monthly"
+    },
+    {
+      "to": 4,
+      "suffix": " yrs",
+      "label": "running campaigns"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Meta Ads Manager",
+      "cat": "Ads",
+      "icon": "meta"
+    },
+    {
+      "name": "Meta Business Suite",
+      "cat": "Ads",
+      "icon": "social"
+    },
+    {
+      "name": "Google Ads",
+      "cat": "Ads",
+      "icon": "google"
+    },
+    {
+      "name": "TikTok Ads",
+      "cat": "Ads",
+      "icon": "tiktok"
+    },
+    {
+      "name": "Google Analytics 4",
+      "cat": "Analytics",
+      "icon": "bars"
+    },
+    {
+      "name": "Search Console",
+      "cat": "Analytics",
+      "icon": "seo"
+    },
+    {
+      "name": "Google Trends",
+      "cat": "Analytics",
+      "icon": "trend"
+    },
+    {
+      "name": "Semrush",
+      "cat": "SEO",
+      "icon": "seo"
+    },
+    {
+      "name": "Ahrefs",
+      "cat": "SEO",
+      "icon": "link"
+    },
+    {
+      "name": "Screaming Frog",
+      "cat": "SEO",
+      "icon": "bug"
+    },
+    {
+      "name": "GoHighLevel",
+      "cat": "CRM",
+      "icon": "funnel"
+    },
+    {
+      "name": "HubSpot",
+      "cat": "CRM",
+      "icon": "team"
+    },
+    {
+      "name": "Shopify",
+      "cat": "Web",
+      "icon": "bag"
+    },
+    {
+      "name": "WordPress",
+      "cat": "Web",
+      "icon": "globe"
+    },
+    {
+      "name": "Canva",
+      "cat": "Creative",
+      "icon": "pen"
+    },
+    {
+      "name": "Figma",
+      "cat": "Creative",
+      "icon": "shapes"
+    },
+    {
+      "name": "Adobe Creative Suite",
+      "cat": "Creative",
+      "icon": "pen"
+    },
+    {
+      "name": "CapCut",
+      "cat": "Creative",
+      "icon": "play"
+    }
+  ],
+  "whyMe": [
+    {
+      "icon": "chart",
+      "title": "Numbers first",
+      "text": "Every claim on this page comes from a real ad account or channel dashboard."
+    },
+    {
+      "icon": "funnel",
+      "title": "Full-funnel ownership",
+      "text": "Strategy, creatives, campaigns, CRM and reporting handled by one person."
+    },
+    {
+      "icon": "clock",
+      "title": "Works your hours",
+      "text": "Comfortable with UK and EU hours, flexible for US overlap."
+    },
+    {
+      "icon": "chat",
+      "title": "Fast, clear updates",
+      "text": "Weekly reports in plain English and quick replies on WhatsApp or email."
+    }
+  ]
 }
