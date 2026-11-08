@@ -1,180 +1,976 @@
 {
   "_help": "Edit text and numbers below, save (Commit changes) on GitHub, and Vercel updates the live site in about 1 minute. Keep the quotes and commas exactly as they are.",
-
   "site": {
     "title": "Abdul Rehman | Performance Marketing Manager",
     "description": "Abdul Rehman, Performance Marketing Manager. Meta, Google and TikTok Ads for lead generation. 7,600+ leads at ~$1 CPL. Open to remote roles in the UK, US and EU.",
     "firstName": "Abdul",
     "lastName": "Rehman",
-    "photo": "",
+    "photo": "photo.jpg",
     "initials": "AR",
     "cvFile": "Abdul_Rehman_Performance_Marketing_Manager_CV.pdf"
   },
-
   "hero": {
     "badge": "Open to remote roles: UK, US & Europe",
-    "tags": ["Performance Marketing Manager", "Meta, Google & TikTok Ads", "Lead Generation"],
+    "tags": [
+      "Performance Marketing Manager",
+      "Meta, Google & TikTok Ads",
+      "Lead Generation"
+    ],
     "headline": "I turn ad spend into qualified leads and real revenue.",
-    "intro": "4 years running paid and organic growth for healthcare, medical education, fintech, media and retail brands. I plan the funnel, build the creatives, structure and test the campaigns, and stay with the sales team until leads become paying customers.",
+    "intro": "4 years running paid and organic growth for healthcare, medical education, e-commerce, fashion, fintech, media and retail brands. I plan the funnel, build the creatives, structure and test the campaigns, and stay with the sales team until leads become paying customers.",
     "stats": [
-      { "value": "4 yrs", "label": "in digital and performance marketing" },
-      { "value": "7,600+", "label": "leads generated in 6 months" },
-      { "value": "~$1.00", "label": "average cost per lead" },
-      { "value": "5M+", "label": "organic TikTok views for a news brand" }
+      {
+        "value": "4 yrs",
+        "label": "in digital and performance marketing"
+      },
+      {
+        "value": "10,000+",
+        "label": "leads generated across clients"
+      },
+      {
+        "value": "~$1.00",
+        "label": "average cost per lead (medical education)"
+      },
+      {
+        "value": "6.8M+",
+        "label": "organic views for a news brand"
+      }
     ],
     "panel": {
       "title": "Top lead generation campaigns (Meta, 2026)",
       "rows": [
-        { "name": "Doctor leads, evergreen", "leads": "2,387", "cpl": "$1.01" },
-        { "name": "January course launch", "leads": "1,827", "cpl": "$0.95" },
-        { "name": "CBO scale campaign", "leads": "1,585", "cpl": "$1.04" },
-        { "name": "January batch (ABO)", "leads": "1,256", "cpl": "$1.13" },
-        { "name": "July batch (CBO)", "leads": "382", "cpl": "$0.62" }
+        {
+          "name": "Doctor leads, evergreen",
+          "leads": "2,387",
+          "cpl": "$1.01"
+        },
+        {
+          "name": "January course launch",
+          "leads": "1,827",
+          "cpl": "$0.95"
+        },
+        {
+          "name": "CBO scale campaign",
+          "leads": "1,585",
+          "cpl": "$1.04"
+        },
+        {
+          "name": "January batch (ABO)",
+          "leads": "1,256",
+          "cpl": "$1.13"
+        },
+        {
+          "name": "July batch (CBO)",
+          "leads": "382",
+          "cpl": "$0.62"
+        }
       ],
       "mini": [
-        { "value": "$0.60", "label": "lowest CPL creative" },
-        { "value": "1,750", "label": "leads in one month" },
-        { "value": "45-50", "label": "doctors enrolled monthly" }
+        {
+          "value": "$0.60",
+          "label": "lowest CPL creative"
+        },
+        {
+          "value": "1,750",
+          "label": "leads in one month"
+        },
+        {
+          "value": "45-50",
+          "label": "doctors enrolled monthly"
+        }
       ],
       "note": "Source: Meta Ads Manager, medical education account, Jan to Jul 2026."
     }
   },
-
   "about": {
     "title": "Strategy and execution, end to end.",
     "paragraphs": [
-      "I started freelancing for local businesses in Lahore in 2022, while I was still studying. Since then I have worked inside a software house, a fintech startup, a news brand and two medical aesthetics groups, and I have run client work alongside every full-time role.",
+      "I started freelancing for local businesses in Lahore in 2022, while I was still studying. Since then I have worked inside a software house, a fintech startup, a news brand and two medical aesthetics groups, and I have built and grown brands in e-commerce, fashion, solar, education and real estate alongside every full-time role.",
       "My strongest work is lead generation on Meta. For a UK-standard aesthetics academy I brought in more than 7,600 doctor leads at about $1 each, which turned into 45 to 50 enrollments and over PKR 1 crore (about $35K) in revenue every month.",
       "Today I lead marketing for a medical aesthetics clinic with four branches in Lahore and Karachi, managing the sales, creative and content teams."
     ],
     "focus": [
-      { "title": "Lead generation", "text": "Lead form and funnel campaigns that keep cost per lead low while quality stays high enough for sales to close." },
-      { "title": "Testing that moves budget", "text": "ABO and CBO structures, audience and creative A/B tests, and budget shifted to whatever the data says is winning." },
-      { "title": "Organic growth", "text": "Content plans and posting systems that grew a news brand to monetization on YouTube and Facebook with zero ad spend." },
-      { "title": "Team leadership", "text": "Running sales, creative and content teams across branches so marketing and sales pull in the same direction." }
+      {
+        "title": "Lead generation",
+        "text": "Lead form and funnel campaigns that keep cost per lead low while quality stays high enough for sales to close."
+      },
+      {
+        "title": "Testing that moves budget",
+        "text": "ABO and CBO structures, audience and creative A/B tests, and budget shifted to whatever the data says is winning."
+      },
+      {
+        "title": "Organic growth",
+        "text": "Content plans and posting systems that grew a news brand to monetization on YouTube and Facebook with zero ad spend."
+      },
+      {
+        "title": "Websites that sell",
+        "text": "Shopify and WordPress stores built for speed and conversions, then scaled with Meta Ads."
+      },
+      {
+        "title": "Team leadership",
+        "text": "Running sales, creative and content teams across branches so marketing and sales pull in the same direction."
+      }
     ]
   },
-
   "skills": [
-    { "group": "Paid advertising", "items": ["Meta Ads", "Facebook Ads", "Instagram Ads", "Google Ads", "TikTok Ads", "Lead Form Ads", "Retargeting", "Media Buying"] },
-    { "group": "Strategy & testing", "items": ["Funnel Strategy", "ABO / CBO", "A/B Testing", "Creative Testing", "Audience Research", "Budget Scaling"] },
-    { "group": "SEO & content", "items": ["On-page SEO", "Off-page SEO", "Technical SEO", "Keyword Research", "Content Strategy", "Social Media", "Video Editing"] },
-    { "group": "Analytics, CRM & tools", "items": ["GA4", "Search Console", "Semrush", "GoHighLevel", "HubSpot CRM", "Canva", "CapCut"] }
+    {
+      "group": "Paid advertising",
+      "items": [
+        "Meta Ads",
+        "Facebook Ads",
+        "Instagram Ads",
+        "Google Ads",
+        "TikTok Ads",
+        "YouTube Ads",
+        "Lead Form Ads",
+        "Retargeting",
+        "Media Buying"
+      ]
+    },
+    {
+      "group": "Strategy & analytics",
+      "items": [
+        "Funnel Strategy",
+        "ABO / CBO",
+        "A/B Testing",
+        "Creative Testing",
+        "Audience Research",
+        "Budget Scaling",
+        "Marketing Analytics",
+        "Business Consulting"
+      ]
+    },
+    {
+      "group": "SEO, content & web",
+      "items": [
+        "On-page SEO",
+        "Off-page SEO",
+        "Technical SEO",
+        "Keyword Research",
+        "Content Strategy",
+        "Content Writing",
+        "Social Media",
+        "Video Editing",
+        "Shopify",
+        "WordPress"
+      ]
+    },
+    {
+      "group": "Tools",
+      "items": [
+        "GA4",
+        "Search Console",
+        "Google Trends",
+        "Semrush",
+        "Ahrefs",
+        "Screaming Frog",
+        "GoHighLevel",
+        "HubSpot CRM",
+        "Canva",
+        "Figma",
+        "Adobe Creative Suite",
+        "CapCut"
+      ]
+    }
   ],
-
   "experience": [
-    { "title": "Digital Marketing Manager", "company": "French Medical Aesthetics Clinic & Doctors Academy", "dates": "Jun 2026 - Present", "badges": ["Current", "Full-time"],
-      "points": ["Lead digital marketing across 4 branches in Lahore and Karachi.", "Run Meta, Google and TikTok Ads for patient leads and aesthetic course admissions.", "Manage the sales, creative, social media and content teams.", "Own content strategy, social media and the website, working with doctors on messaging."] },
-    { "title": "Digital Marketing Manager", "company": "London Aesthetics U.K. (Doctors Academy)", "dates": "Jan 2026 - Jul 2026", "badges": ["Full-time"],
-      "points": ["Meta lead generation for UK-standard aesthetic courses aimed at PMDC-registered doctors.", "7,600+ leads at ~$1.00 average CPL; best campaigns at $0.60 to $0.63.", "PKR 1 crore+ monthly revenue with 45 to 50 doctors enrolling each month.", "30 campaigns, 50 ad sets and 135 ads with structured ABO/CBO testing."] },
-    { "title": "Digital Marketing Executive", "company": "ApnaCrowdFunding (Fintech)", "dates": "Mar 2026 - Sep 2026", "badges": ["Part-time"],
-      "points": ["Social, Google Ads, SEO, content and email for a reward-based crowdfunding platform.", "Content to drive creator sign-ups and backer traffic."] },
-    { "title": "Social Media Marketing Manager", "company": "PNJ News", "dates": "Feb 2025 - Apr 2026", "badges": ["Client"],
-      "points": ["100% organic growth across Facebook, Instagram, YouTube and TikTok.", "Monetized YouTube and Facebook; 5M+ TikTok views."] },
-    { "title": "Digital Marketing Executive", "company": "Techionik Ltd (AI & Software, US/UK clients)", "dates": "May 2025 - Dec 2025", "badges": ["Intern to full-time"],
-      "points": ["Promoted from intern to executive within 5 months.", "Full SEO: keyword research, on-page, off-page, technical and SEO content.", "Social media strategy and performance reporting."] },
-    { "title": "Social Media Manager", "company": "Shaheen Electronics & Solar", "dates": "Dec 2024 - Feb 2026", "badges": ["Client"],
-      "points": ["Social media, Facebook ad campaigns, post design and promo video editing."] },
-    { "title": "SEO Specialist", "company": "Ademoh", "dates": "Sep 2024 - Mar 2025", "badges": ["Full-time"],
-      "points": ["Keyword research, on-page optimization and search-focused content."] },
-    { "title": "Instructor & Social Media Manager", "company": "Skills Up Academy", "dates": "Jul 2024 - Mar 2025", "badges": ["Teaching"],
-      "points": ["Taught digital marketing fundamentals and ran the academy's social media."] },
-    { "title": "Freelance Digital Marketer", "company": "Self-employed", "dates": "2022 - Present", "badges": ["Current", "Freelance"],
-      "points": ["Social media and paid ads for local businesses in electronics, solar, news and cosmetics."] }
+    {
+      "title": "Digital Marketing Manager",
+      "company": "French Medical Aesthetics Clinic & Doctors Academy",
+      "dates": "Jun 2026 - Present",
+      "badges": [
+        "Current",
+        "Full-time"
+      ],
+      "points": [
+        "Lead digital marketing across 4 branches in Lahore and Karachi.",
+        "Run Meta, Google and TikTok Ads for patient leads and aesthetic course admissions.",
+        "Manage the sales, creative, social media and content teams.",
+        "Own content strategy, social media and the website, working with doctors on messaging."
+      ]
+    },
+    {
+      "title": "Digital Marketing Manager",
+      "company": "London Aesthetics U.K. (Doctors Academy)",
+      "dates": "Jan 2026 - Jul 2026",
+      "badges": [
+        "Full-time"
+      ],
+      "points": [
+        "Meta lead generation for UK-standard aesthetic courses aimed at PMDC-registered doctors.",
+        "7,600+ leads at ~$1.00 average CPL; best campaigns at $0.60 to $0.63.",
+        "PKR 1 crore+ monthly revenue with 45 to 50 doctors enrolling each month.",
+        "30 campaigns, 50 ad sets and 135 ads with structured ABO/CBO testing."
+      ]
+    },
+    {
+      "title": "Digital Marketing Executive",
+      "company": "ApnaCrowdFunding (Fintech)",
+      "dates": "Mar 2026 - Sep 2026",
+      "badges": [
+        "Part-time"
+      ],
+      "points": [
+        "Social, Google Ads, SEO, content and email for a reward-based crowdfunding platform.",
+        "Content to drive creator sign-ups and backer traffic."
+      ]
+    },
+    {
+      "title": "Shopify Store & Meta Ads",
+      "company": "Herbs of Paradise (Freelance)",
+      "dates": "Sep 2025 - Dec 2025",
+      "badges": [
+        "Freelance"
+      ],
+      "points": [
+        "Built the brand's full digital presence: a fast Shopify store plus Meta Ads to scale sales."
+      ]
+    },
+    {
+      "title": "Computer Teacher (Part-time)",
+      "company": "Scholastic Islamiah",
+      "dates": "Aug 2025 - Dec 2025",
+      "badges": [
+        "Teaching"
+      ],
+      "points": [
+        "Taught Microsoft Office and digital marketing to O/A Level students and designed the curriculum."
+      ]
+    },
+    {
+      "title": "Digital Marketing Executive & Content Writer",
+      "company": "Techionik Ltd (AI & Software, US/UK clients)",
+      "dates": "May 2025 - Dec 2025",
+      "badges": [
+        "Intern to full-time"
+      ],
+      "points": [
+        "Promoted from intern to executive within 5 months.",
+        "Full SEO: keyword research, on-page, off-page, technical and SEO content.",
+        "Wrote SEO content to grow rankings, organic traffic and website authority.",
+        "Social media strategy and performance reporting."
+      ]
+    },
+    {
+      "title": "WordPress E-commerce Store",
+      "company": "Meshaz Cosmetics (Freelance)",
+      "dates": "Mar 2025 - Apr 2025",
+      "badges": [
+        "Freelance"
+      ],
+      "points": [
+        "Built a custom WordPress store for a beauty brand, focused on speed and an easy path to purchase."
+      ]
+    },
+    {
+      "title": "Social Media Marketing Manager",
+      "company": "PNJ News",
+      "dates": "Feb 2025 - Apr 2026",
+      "badges": [
+        "Client"
+      ],
+      "points": [
+        "Multi-platform growth across Facebook, Instagram, YouTube and TikTok with high-frequency content.",
+        "1.8M Meta views, 5M+ TikTok views, 7.6K YouTube watch hours and 150K+ engagements.",
+        "Monetized YouTube and the Facebook page."
+      ]
+    },
+    {
+      "title": "Social Media Manager",
+      "company": "Shaheen Electronics & Solar",
+      "dates": "Dec 2024 - Feb 2026",
+      "badges": [
+        "Client"
+      ],
+      "points": [
+        "Meta, TikTok and YouTube ad strategy for an electronics and solar retailer.",
+        "2,623 leads, 228K+ reach, 165K+ views and a 3.7% CTR.",
+        "Creative direction, content design and promo video editing."
+      ]
+    },
+    {
+      "title": "Marketing Manager (Part-time)",
+      "company": "Ademoh",
+      "dates": "Aug 2024 - Feb 2025",
+      "badges": [
+        "Full-time"
+      ],
+      "points": [
+        "Ran social media for multiple local Pakistani clients across different industries.",
+        "Led end-to-end digital strategy, SEO and content scheduling."
+      ]
+    },
+    {
+      "title": "Instructor & SMM Coordinator",
+      "company": "Skills Up Academy",
+      "dates": "Aug 2024 - Mar 2025",
+      "badges": [
+        "Teaching"
+      ],
+      "points": [
+        "Moved from learner to instructor; taught practical digital marketing sessions.",
+        "Managed the academy's social media growth."
+      ]
+    },
+    {
+      "title": "Freelance Digital Marketer",
+      "company": "Self-employed",
+      "dates": "2022 - Present",
+      "badges": [
+        "Current",
+        "Freelance"
+      ],
+      "points": [
+        "Social media and paid ads for local businesses in electronics, solar, news and cosmetics."
+      ]
+    }
   ],
-
   "caseStudies": [
-    { "id": "doctors", "category": "Lead generation", "industry": "Medical education", "title": "Doctor Lead Generation", "client": "London Aesthetics U.K. Pakistan", "period": "Jan to Jul 2026",
-      "cardStats": [["7,600+", "leads"], ["~$1.00", "avg CPL"]],
+    {
+      "id": "doctors",
+      "category": "Lead generation",
+      "industry": "Medical education",
+      "title": "Doctor Lead Generation",
+      "client": "London Aesthetics U.K. Pakistan",
+      "period": "Jan to Jul 2026",
+      "cardStats": [
+        [
+          "7,600+",
+          "leads"
+        ],
+        [
+          "~$1.00",
+          "avg CPL"
+        ]
+      ],
       "summary": "Lead form campaigns that filled premium aesthetic training batches with PMDC-registered doctors.",
-      "platforms": ["Meta Ads", "Lead Forms"],
-      "keyStats": [["7,668", "leads (8 top campaigns)"], ["~$1.00", "blended CPL"], ["$0.62", "best campaign CPL"], ["45-50", "doctors enrolled / month"]],
+      "platforms": [
+        "Meta Ads",
+        "Lead Forms"
+      ],
+      "keyStats": [
+        [
+          "7,668",
+          "leads (8 top campaigns)"
+        ],
+        [
+          "~$1.00",
+          "blended CPL"
+        ],
+        [
+          "$0.62",
+          "best campaign CPL"
+        ],
+        [
+          "45-50",
+          "doctors enrolled / month"
+        ]
+      ],
       "challenge": "Fill recurring aesthetic training batches with qualified MBBS doctors on a lean budget, in a niche where every lead has to be a registered medical professional.",
-      "whatIDid": ["Built and managed 30 campaigns, 50 ad sets and 135 ads on Meta.", "Used ABO to test audiences (open, interest, narrow) and CBO to scale winners.", "Ran Instant Form lead campaigns with qualifying questions for doctors.", "Tested static offer posts against doctor testimonial videos and moved budget to the winners.", "Supported ads with educational reels, testimonials and lives with a UK master trainer."],
-      "results": ["7,600+ leads at ~$1.00 average CPL in about 6 months.", "~1,750 leads in June 2026 alone on ~$1,830 spend.", "PKR 1 crore+ (~$35K+) monthly revenue, 45 to 50 doctors enrolling every month.", "Organic side effect: +2,000 Instagram followers in 2 months and +5,000 Facebook followers in 4 months."],
-      "charts": ["campaigns", "june"] },
-    { "id": "creative", "category": "Lead generation", "industry": "Creative testing", "title": "Static vs Video: Creative Test", "client": "London Aesthetics U.K. Pakistan", "period": "June 2026",
-      "cardStats": [["$0.60", "best static CPL"], ["2-4x", "cheaper than video"]],
+      "whatIDid": [
+        "Built and managed 30 campaigns, 50 ad sets and 135 ads on Meta.",
+        "Used ABO to test audiences (open, interest, narrow) and CBO to scale winners.",
+        "Ran Instant Form lead campaigns with qualifying questions for doctors.",
+        "Tested static offer posts against doctor testimonial videos and moved budget to the winners.",
+        "Supported ads with educational reels, testimonials and lives with a UK master trainer."
+      ],
+      "results": [
+        "7,600+ leads at ~$1.00 average CPL in about 6 months.",
+        "~1,750 leads in June 2026 alone on ~$1,830 spend.",
+        "PKR 1 crore+ (~$35K+) monthly revenue, 45 to 50 doctors enrolling every month.",
+        "Organic side effect: +2,000 Instagram followers in 2 months and +5,000 Facebook followers in 4 months."
+      ],
+      "charts": [
+        "campaigns",
+        "june"
+      ]
+    },
+    {
+      "id": "creative",
+      "category": "Lead generation",
+      "industry": "Creative testing",
+      "title": "Static vs Video: Creative Test",
+      "client": "London Aesthetics U.K. Pakistan",
+      "period": "June 2026",
+      "cardStats": [
+        [
+          "$0.60",
+          "best static CPL"
+        ],
+        [
+          "2-4x",
+          "cheaper than video"
+        ]
+      ],
       "summary": "A month-long test that proved simple static offers beat doctor testimonial videos on cost per lead.",
-      "platforms": ["Meta Ads", "Creative Testing"],
-      "keyStats": [["$0.60", "best static CPL"], ["765", "leads from 3 statics"], ["$1.47+", "video CPL range start"], ["2-4x", "cost gap"]],
+      "platforms": [
+        "Meta Ads",
+        "Creative Testing"
+      ],
+      "keyStats": [
+        [
+          "$0.60",
+          "best static CPL"
+        ],
+        [
+          "765",
+          "leads from 3 statics"
+        ],
+        [
+          "$1.47+",
+          "video CPL range start"
+        ],
+        [
+          "2-4x",
+          "cost gap"
+        ]
+      ],
       "challenge": "The team assumed testimonial videos from doctors would convert best. The data needed to settle it before more budget went into video production.",
-      "whatIDid": ["Ran static offer posts and doctor testimonial videos side by side in the same campaigns.", "Compared leads and CPL at ad level over the month.", "Shifted spend to the static creatives once the gap was clear."],
-      "results": ["Top static posts delivered 280 leads at $0.60 and 319 leads at $0.93.", "Testimonial videos got 1 to 5 leads each at $1.47 to $4.88 CPL.", "Budget moved to statics, which kept blended CPL near $1 while volume grew."],
-      "charts": ["creative"] },
-    { "id": "audience", "category": "Lead generation", "industry": "Audience testing", "title": "Audience Testing at Scale", "client": "London Aesthetics U.K. Pakistan", "period": "Feb to Jun 2026",
-      "cardStats": [["1,448", "leads, top ad set"], ["$1.06", "CPL"]],
+      "whatIDid": [
+        "Ran static offer posts and doctor testimonial videos side by side in the same campaigns.",
+        "Compared leads and CPL at ad level over the month.",
+        "Shifted spend to the static creatives once the gap was clear."
+      ],
+      "results": [
+        "Top static posts delivered 280 leads at $0.60 and 319 leads at $0.93.",
+        "Testimonial videos got 1 to 5 leads each at $1.47 to $4.88 CPL.",
+        "Budget moved to statics, which kept blended CPL near $1 while volume grew."
+      ],
+      "charts": [
+        "creative"
+      ]
+    },
+    {
+      "id": "audience",
+      "category": "Lead generation",
+      "industry": "Audience testing",
+      "title": "Audience Testing at Scale",
+      "client": "London Aesthetics U.K. Pakistan",
+      "period": "Feb to Jun 2026",
+      "cardStats": [
+        [
+          "1,448",
+          "leads, top ad set"
+        ],
+        [
+          "$1.06",
+          "CPL"
+        ]
+      ],
       "summary": "A/B tested open, interest and narrow audiences; one ad set earned Meta's High Performing tag.",
-      "platforms": ["Meta Ads", "A/B Testing"],
-      "keyStats": [["1,448", "leads, best ad set"], ["$1.06", "its CPL"], ["$0.63", "cheapest ad set"], ["50", "ad sets tested"]],
+      "platforms": [
+        "Meta Ads",
+        "A/B Testing"
+      ],
+      "keyStats": [
+        [
+          "1,448",
+          "leads, best ad set"
+        ],
+        [
+          "$1.06",
+          "its CPL"
+        ],
+        [
+          "$0.63",
+          "cheapest ad set"
+        ],
+        [
+          "50",
+          "ad sets tested"
+        ]
+      ],
       "challenge": "Find which audience definition could carry volume without CPL drifting up as budget scaled.",
-      "whatIDid": ["Split audiences into open targeting, new interest stacks and narrow lists.", "Ran them as A/B ad sets with equal budgets, then consolidated winners.", "Refreshed batch-specific ad sets for each course intake."],
-      "results": ["Best ad set: 1,448 leads at $1.06, tagged High Performing by Meta.", "Open targeting delivered 725 leads at $1.30 as a reliable volume source.", "Narrow audiences were the most expensive ($1.76) and were cut."],
-      "charts": ["adsets"] },
-    { "id": "pnj", "category": "Organic growth", "industry": "News media", "title": "News Brand, Zero Ad Spend", "client": "PNJ News", "period": "6 months of focused growth",
-      "cardStats": [["5M+", "TikTok views"], ["2", "channels monetized"]],
-      "summary": "Content planning and consistent publishing took a local news brand to monetization without a single ad.",
-      "platforms": ["YouTube", "Facebook", "TikTok", "Instagram"],
-      "keyStats": [["2K", "YouTube subscribers"], ["4K", "watch hours"], ["10K", "Facebook followers"], ["5M+", "TikTok views"]],
-      "challenge": "Grow a new news brand across four platforms with no advertising budget at all.",
-      "whatIDid": ["Built a content calendar and daily posting schedule for each platform.", "Designed daily posts and edited short videos for news moments.", "Managed all four channels and adjusted formats to what each platform rewarded."],
-      "results": ["YouTube monetized: 2,000 subscribers and 4,000 watch hours.", "Facebook page monetized: 10,000 organic followers, 5K to 10K daily views.", "TikTok: 8,000 followers, 120K likes and 5M+ views."],
-      "charts": ["pnj"] },
-    { "id": "shaheen", "category": "Social & ads", "industry": "Electronics & solar retail", "title": "Electronics & Solar Retail", "client": "Shaheen Electronics & Solar, Lahore", "period": "Dec 2024 to Feb 2026",
-      "cardStats": [["14", "months managed"]],
-      "summary": "Full social media management and Facebook ad campaigns for a Lahore electronics and solar retailer.",
-      "platforms": ["Facebook Ads", "Social Media"],
+      "whatIDid": [
+        "Split audiences into open targeting, new interest stacks and narrow lists.",
+        "Ran them as A/B ad sets with equal budgets, then consolidated winners.",
+        "Refreshed batch-specific ad sets for each course intake."
+      ],
+      "results": [
+        "Best ad set: 1,448 leads at $1.06, tagged High Performing by Meta.",
+        "Open targeting delivered 725 leads at $1.30 as a reliable volume source.",
+        "Narrow audiences were the most expensive ($1.76) and were cut."
+      ],
+      "charts": [
+        "adsets"
+      ]
+    },
+    {
+      "id": "pnj",
+      "category": "Organic growth",
+      "industry": "News media",
+      "title": "News Brand: Multi-Platform Growth",
+      "client": "PNJ News",
+      "period": "6 months of focused growth",
+      "cardStats": [
+        [
+          "6.8M+",
+          "total views"
+        ],
+        [
+          "150K+",
+          "engagements"
+        ]
+      ],
+      "summary": "High-frequency content on investigative stories, roadshows and viral clips took a news brand to monetization on YouTube and Facebook.",
+      "platforms": [
+        "YouTube",
+        "Facebook",
+        "TikTok",
+        "Instagram"
+      ],
+      "keyStats": [
+        [
+          "5M+",
+          "TikTok views"
+        ],
+        [
+          "1.8M",
+          "Meta views"
+        ],
+        [
+          "7.6K",
+          "YouTube watch hours"
+        ],
+        [
+          "150K+",
+          "total engagements"
+        ]
+      ],
+      "challenge": "Grow a new digital news brand across four platforms and turn casual viewers into a loyal audience for investigative reporting and roadshows.",
+      "whatIDid": [
+        "Built a high-frequency content calendar for breaking news, roadshows, scam exposés and lighter social content.",
+        "Designed daily posts and edited short videos for each platform's format.",
+        "Managed Facebook, Instagram, YouTube and TikTok and doubled down on the formats each platform rewarded."
+      ],
+      "results": [
+        "5M+ TikTok views, 8,000 followers and 120K likes.",
+        "1.8M total views on Facebook and Instagram; Facebook page monetized with 10,000 followers.",
+        "YouTube monetized with 7.6K watch hours and 2,000 subscribers.",
+        "150K+ total social engagements."
+      ],
+      "charts": [
+        "pnj"
+      ]
+    },
+    {
+      "id": "shaheen",
+      "category": "Lead generation",
+      "industry": "Electronics & solar",
+      "title": "Solar Retail Lead Generation",
+      "client": "Shaheen Electronics & Solar, Lahore",
+      "period": "Dec 2024 to Feb 2026",
+      "cardStats": [
+        [
+          "2,623",
+          "leads"
+        ],
+        [
+          "3.7%",
+          "CTR"
+        ]
+      ],
+      "summary": "Meta, TikTok and YouTube ads that generated 2,623 leads for a Lahore electronics and solar retailer.",
+      "platforms": [
+        "Meta Ads",
+        "TikTok Ads",
+        "YouTube Ads"
+      ],
+      "keyStats": [
+        [
+          "2,623",
+          "total leads"
+        ],
+        [
+          "228,699",
+          "total reach"
+        ],
+        [
+          "165K+",
+          "video views"
+        ],
+        [
+          "3.7%",
+          "CTR"
+        ]
+      ],
+      "challenge": "Generate solar and electronics enquiries for a local retailer while building awareness of its social channels during the solar demand boom.",
+      "whatIDid": [
+        "Built a targeted ads strategy across Meta, TikTok and YouTube.",
+        "Directed visual ad content: product posts, package offers and short explainer videos.",
+        "A/B tested creatives on engagement rate and tracked CTR, CPC and view-through rate.",
+        "Reallocated budget and placements toward the best-performing ads."
+      ],
+      "results": [
+        "2,623 leads generated.",
+        "228,699 people reached and 165K+ views.",
+        "3.7% click-through rate across campaigns.",
+        "Facebook page grown to around 14K followers."
+      ],
+      "charts": [
+        "shaheen"
+      ]
+    },
+    {
+      "id": "herbs",
+      "category": "Web & e-commerce",
+      "industry": "Herbal products",
+      "title": "Herbs of Paradise",
+      "client": "Herbs of Paradise (Freelance)",
+      "period": "Sep to Dec 2025",
+      "cardStats": [
+        [
+          "Shopify",
+          "store built"
+        ],
+        [
+          "Meta",
+          "ads to scale"
+        ]
+      ],
+      "summary": "Built the full digital presence for an herbal brand: a high-performance Shopify store, then Meta Ads to grow sales.",
+      "platforms": [
+        "Shopify",
+        "Meta Ads"
+      ],
       "keyStats": [],
-      "challenge": "Keep a busy retail brand visible and generating enquiries during the solar demand boom.",
-      "whatIDid": ["Managed the brand's complete social media presence.", "Ran Facebook ad campaigns for product awareness and enquiries.", "Designed posts and edited promotional videos."],
-      "results": ["Long-term client relationship of 14 months."],
-      "charts": [] }
+      "challenge": "Launch a new herbal brand online from zero with a store that converts and a way to drive traffic to it.",
+      "whatIDid": [
+        "Designed and developed the Shopify store, product pages and checkout flow.",
+        "Set up tracking and launched Meta Ads to drive targeted traffic.",
+        "Optimised for speed and mobile shoppers."
+      ],
+      "results": [
+        "Brand launched online with a complete Shopify store and paid acquisition running."
+      ],
+      "charts": []
+    },
+    {
+      "id": "meshaz",
+      "category": "Web & e-commerce",
+      "industry": "Beauty & cosmetics",
+      "title": "Meshaz Cosmetics",
+      "client": "Meshaz Cosmetics (Freelance)",
+      "period": "Mar to Apr 2025",
+      "cardStats": [
+        [
+          "WordPress",
+          "custom store"
+        ]
+      ],
+      "summary": "A custom WordPress e-commerce store for a beauty brand, built for speed and an easy path to purchase.",
+      "platforms": [
+        "WordPress",
+        "WooCommerce"
+      ],
+      "keyStats": [],
+      "challenge": "Give a growing cosmetics brand its own online store that loads fast and turns visitors into customers.",
+      "whatIDid": [
+        "Built a custom WordPress e-commerce store.",
+        "Focused on fast loading and a simple, user-friendly layout.",
+        "Structured product pages to move visitors to checkout."
+      ],
+      "results": [
+        "Custom store delivered and live, ready for paid and organic traffic."
+      ],
+      "charts": []
+    }
   ],
-
   "dashboard": {
-    "intro": "Pulled from Meta Ads Manager for a medical education account, 2026. Campaign names are generalised.",
-    "show": ["campaigns", "june", "creative", "adsets"]
+    "intro": "Pulled from ad platform dashboards for client and in-house accounts. Campaign names are generalised.",
+    "show": [
+      "campaigns",
+      "june",
+      "creative",
+      "adsets",
+      "shaheen",
+      "pnj"
+    ]
   },
-
   "charts": {
-    "campaigns": { "title": "Leads by campaign", "subtitle": "Jan 1 to Jul 6, 2026. Bar = leads, label = CPL.",
-      "rows": [["Doctor leads, evergreen", 2387, "$1.01"], ["January course launch", 1827, "$0.95"], ["CBO scale campaign", 1585, "$1.04"], ["January batch ABO", 1256, "$1.13"], ["July batch CBO", 382, "$0.62"], ["Summer batches ABO", 117, "$0.69"], ["Video ads ABO", 90, "$0.80"], ["Doctor form leads", 24, "$1.76"]],
-      "note": "Total of these 8 campaigns: 7,668 leads on $7,636 spend, ~$1.00 CPL." },
-    "june": { "title": "One month: June 2026", "subtitle": "Leads per campaign in a single month.",
-      "rows": [["CBO scale campaign", 506, "$0.99"], ["Doctor leads, evergreen", 332, "$1.22"], ["January course launch", 288, "$1.28"], ["July batch CBO", 283, "$0.63"], ["January batch ABO", 222, "$1.34"], ["Summer batches ABO", 117, "$0.69"]],
-      "note": "~1,748 leads on ~$1,831 spend, ~$1.05 CPL." },
-    "creative": { "title": "Cost per lead by creative", "subtitle": "June 2026. Lower is better. Orange = static, grey = video.",
-      "rows": [["Static: offer post", 0.60, "$0.60"], ["Static: new post v2", 0.93, "$0.93"], ["Static: new post", 1.08, "$1.08"], ["Video: testimonial A", 1.47, "$1.47", "video"], ["Video: testimonial B", 2.26, "$2.26", "video"], ["Video: text overlay", 2.71, "$2.71", "video"], ["Video: testimonial C", 2.84, "$2.84", "video"], ["Video: testimonial D", 4.88, "$4.88", "video"]],
-      "note": "Statics delivered leads 2 to 4x cheaper, so budget moved to them." },
-    "adsets": { "title": "Leads by ad set", "subtitle": "Feb 1 to Jun 30, 2026. Label = CPL.",
-      "rows": [["March batch A/B (High perf.)", 1448, "$1.06"], ["Open targeting v1", 725, "$1.30"], ["New interest A/B", 441, "$1.39"], ["Open targeting v2", 345, "$1.54"], ["July batch CBO", 283, "$0.63"], ["Summer batch", 79, "$0.72"], ["Feb audience A/B", 61, "$1.26"], ["Narrow audience", 24, "$1.76"]],
-      "note": "" },
-    "pnj": { "title": "PNJ News organic results", "subtitle": "Zero ad spend.",
-      "rows": [["TikTok likes", 120000, "120K"], ["Facebook followers", 10000, "10K"], ["TikTok followers", 8000, "8K"], ["YouTube watch hours", 4000, "4K"], ["YouTube subscribers", 2000, "2K"]],
-      "note": "Plus 5M+ TikTok views and 5K to 10K daily Facebook views. YouTube and Facebook both monetized." }
+    "campaigns": {
+      "title": "Leads by campaign",
+      "subtitle": "Jan 1 to Jul 6, 2026. Bar = leads, label = CPL.",
+      "rows": [
+        [
+          "Doctor leads, evergreen",
+          2387,
+          "$1.01"
+        ],
+        [
+          "January course launch",
+          1827,
+          "$0.95"
+        ],
+        [
+          "CBO scale campaign",
+          1585,
+          "$1.04"
+        ],
+        [
+          "January batch ABO",
+          1256,
+          "$1.13"
+        ],
+        [
+          "July batch CBO",
+          382,
+          "$0.62"
+        ],
+        [
+          "Summer batches ABO",
+          117,
+          "$0.69"
+        ],
+        [
+          "Video ads ABO",
+          90,
+          "$0.80"
+        ],
+        [
+          "Doctor form leads",
+          24,
+          "$1.76"
+        ]
+      ],
+      "note": "Total of these 8 campaigns: 7,668 leads on $7,636 spend, ~$1.00 CPL."
+    },
+    "june": {
+      "title": "One month: June 2026",
+      "subtitle": "Leads per campaign in a single month.",
+      "rows": [
+        [
+          "CBO scale campaign",
+          506,
+          "$0.99"
+        ],
+        [
+          "Doctor leads, evergreen",
+          332,
+          "$1.22"
+        ],
+        [
+          "January course launch",
+          288,
+          "$1.28"
+        ],
+        [
+          "July batch CBO",
+          283,
+          "$0.63"
+        ],
+        [
+          "January batch ABO",
+          222,
+          "$1.34"
+        ],
+        [
+          "Summer batches ABO",
+          117,
+          "$0.69"
+        ]
+      ],
+      "note": "~1,748 leads on ~$1,831 spend, ~$1.05 CPL."
+    },
+    "creative": {
+      "title": "Cost per lead by creative",
+      "subtitle": "June 2026. Lower is better. Orange = static, grey = video.",
+      "rows": [
+        [
+          "Static: offer post",
+          0.6,
+          "$0.60"
+        ],
+        [
+          "Static: new post v2",
+          0.93,
+          "$0.93"
+        ],
+        [
+          "Static: new post",
+          1.08,
+          "$1.08"
+        ],
+        [
+          "Video: testimonial A",
+          1.47,
+          "$1.47",
+          "video"
+        ],
+        [
+          "Video: testimonial B",
+          2.26,
+          "$2.26",
+          "video"
+        ],
+        [
+          "Video: text overlay",
+          2.71,
+          "$2.71",
+          "video"
+        ],
+        [
+          "Video: testimonial C",
+          2.84,
+          "$2.84",
+          "video"
+        ],
+        [
+          "Video: testimonial D",
+          4.88,
+          "$4.88",
+          "video"
+        ]
+      ],
+      "note": "Statics delivered leads 2 to 4x cheaper, so budget moved to them."
+    },
+    "adsets": {
+      "title": "Leads by ad set",
+      "subtitle": "Feb 1 to Jun 30, 2026. Label = CPL.",
+      "rows": [
+        [
+          "March batch A/B (High perf.)",
+          1448,
+          "$1.06"
+        ],
+        [
+          "Open targeting v1",
+          725,
+          "$1.30"
+        ],
+        [
+          "New interest A/B",
+          441,
+          "$1.39"
+        ],
+        [
+          "Open targeting v2",
+          345,
+          "$1.54"
+        ],
+        [
+          "July batch CBO",
+          283,
+          "$0.63"
+        ],
+        [
+          "Summer batch",
+          79,
+          "$0.72"
+        ],
+        [
+          "Feb audience A/B",
+          61,
+          "$1.26"
+        ],
+        [
+          "Narrow audience",
+          24,
+          "$1.76"
+        ]
+      ],
+      "note": ""
+    },
+    "pnj": {
+      "title": "PNJ News reach",
+      "subtitle": "Organic content across platforms.",
+      "rows": [
+        [
+          "TikTok views",
+          5000000,
+          "5M+"
+        ],
+        [
+          "Facebook & Instagram views",
+          1800000,
+          "1.8M"
+        ],
+        [
+          "Total engagements",
+          150000,
+          "150K+"
+        ],
+        [
+          "TikTok likes",
+          120000,
+          "120K"
+        ],
+        [
+          "Facebook followers",
+          10000,
+          "10K"
+        ],
+        [
+          "YouTube watch hours",
+          7600,
+          "7.6K"
+        ]
+      ],
+      "note": "YouTube and Facebook both monetized."
+    },
+    "shaheen": {
+      "title": "Shaheen Electronics & Solar",
+      "subtitle": "Meta, TikTok and YouTube ads.",
+      "rows": [
+        [
+          "Total reach",
+          228699,
+          "228,699"
+        ],
+        [
+          "Video views",
+          165000,
+          "165K+"
+        ],
+        [
+          "Leads",
+          2623,
+          "2,623"
+        ]
+      ],
+      "note": "3.7% CTR across campaigns."
+    }
   },
-
   "process": [
-    { "title": "Audit", "text": "Check tracking, pixel, forms, account structure and past data before any budget goes live." },
-    { "title": "Plan", "text": "Define the audience, the offer and the funnel, and set the CPL and revenue targets." },
-    { "title": "Launch & test", "text": "Run audiences and creatives against each other in ABO, then scale winners in CBO." },
-    { "title": "Optimise", "text": "Kill what is expensive, move money to what converts, refresh creatives before fatigue." },
-    { "title": "Close the loop", "text": "Work with sales and the CRM so every lead is followed up and tied back to revenue." }
+    {
+      "title": "Audit",
+      "text": "Check tracking, pixel, forms, account structure and past data before any budget goes live."
+    },
+    {
+      "title": "Plan",
+      "text": "Define the audience, the offer and the funnel, and set the CPL and revenue targets."
+    },
+    {
+      "title": "Launch & test",
+      "text": "Run audiences and creatives against each other in ABO, then scale winners in CBO."
+    },
+    {
+      "title": "Optimise",
+      "text": "Kill what is expensive, move money to what converts, refresh creatives before fatigue."
+    },
+    {
+      "title": "Close the loop",
+      "text": "Work with sales and the CRM so every lead is followed up and tied back to revenue."
+    }
   ],
-
   "education": [
-    { "title": "Bachelor of Business Administration (Marketing)", "text": "Virtual University of Pakistan" },
-    { "title": "Languages", "text": "English (professional) and Urdu (native)" }
+    {
+      "title": "Bachelor of Business Administration (Marketing)",
+      "text": "Virtual University of Pakistan"
+    },
+    {
+      "title": "Languages",
+      "text": "English (professional) and Urdu (native)"
+    }
   ],
-
   "certifications": [],
-
   "contact": {
-    "title": "Need more leads for less money?",
-    "text": "Hiring managers, agencies and founders: send me your goal, your current ad spend and the platforms you use. I'll reply with where I see the quickest wins.",
+    "title": "Let's grow your numbers together.",
+    "text": "Hiring for a remote performance marketing role, or need more leads for your business? Pick whatever is easiest for you: send the form, message me on WhatsApp, email me, or connect on LinkedIn. I usually reply within a few hours.",
     "email": "nabdurehman703@gmail.com",
     "phone": "+92 324 4395583",
     "whatsapp": "923244395583",
-    "linkedin": "https://www.linkedin.com/in/rana-abdul-rehman-"
+    "linkedin": "https://www.linkedin.com/in/rana-abdul-rehman-",
+    "whatsappMessage": "Hi Abdul, I saw your portfolio and would like to talk about "
   }
 }

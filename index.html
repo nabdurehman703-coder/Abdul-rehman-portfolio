@@ -57,8 +57,58 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:6
 .pill{display:inline-flex;align-items:center;gap:8px;padding:7px 14px;border-radius:999px;background:rgba(34,195,142,.12);border:1px solid rgba(34,195,142,.35);font-size:13.5px;color:#D8FFF0}
 .dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 0 4px rgba(34,195,142,.2)}
 .idrow{display:flex;gap:22px;align-items:center;margin:26px 0 18px}
-.avatar{width:118px;height:118px;flex:none;border-radius:24px;background:linear-gradient(135deg,#FF6A1A,#FF9A5C);display:grid;place-items:center;font-family:Archivo,Inter,system-ui,sans-serif;font-weight:900;font-size:42px;color:#fff;border:3px solid rgba(255,255,255,.15);box-shadow:0 20px 50px rgba(255,106,26,.35);overflow:hidden}
-.avatar img{width:100%;height:100%;object-fit:cover}
+.avatar{width:150px;height:150px;flex:none;border-radius:28px;background:linear-gradient(135deg,#FF6A1A,#FF9A5C);display:grid;place-items:center;font-family:Archivo,Inter,system-ui,sans-serif;font-weight:900;font-size:42px;color:#fff;border:3px solid rgba(255,255,255,.15);box-shadow:0 20px 50px rgba(255,106,26,.35);overflow:hidden}
+.avatar img{width:100%;height:100%;object-fit:cover;object-position:50% 25%}
+@media(max-width:560px){.avatar{width:112px;height:112px;border-radius:22px}}
+/* about photo */
+.aphoto{position:relative;border-radius:24px;overflow:hidden;background:#EDEAE4;aspect-ratio:1/1;max-width:420px;margin-bottom:18px;box-shadow:0 24px 60px rgba(23,24,28,.12)}
+.aphoto:before{content:"";position:absolute;left:-15%;right:-15%;bottom:-55%;height:100%;border-radius:50%;background:var(--blue)}
+.aphoto img{position:relative;width:100%;height:100%;object-fit:cover;display:block}
+.aphoto .chipx{position:absolute;left:14px;bottom:14px;background:rgba(23,24,28,.85);color:#fff;font-size:13px;font-weight:600;padding:8px 12px;border-radius:999px}
+/* contact v2 */
+.cwrap{background:linear-gradient(160deg,var(--navy),#2A2B31);color:#fff;border-radius:28px;padding:52px 44px}
+@media(max-width:860px){.cwrap{padding:36px 20px}}
+.chead{max-width:720px;margin-bottom:30px}
+.chead h2{font-size:clamp(28px,3.6vw,42px);font-weight:800;margin:8px 0 12px}
+.chead p{color:#B7BAC2}
+.cbtns{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:28px}
+@media(max-width:900px){.cbtns{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:480px){.cbtns{grid-template-columns:1fr}}
+.cbtn{display:flex;gap:12px;align-items:center;padding:16px;border-radius:16px;border:1px solid rgba(255,255,255,.12);background:rgba(255,255,255,.06);transition:.2s}
+.cbtn:hover{transform:translateY(-2px);background:rgba(255,255,255,.1)}
+.cbtn .ic{width:44px;height:44px;flex:none;border-radius:12px;display:grid;place-items:center}
+.cbtn .ic svg{width:22px;height:22px;fill:#fff}
+.cbtn b{display:block;font-size:15px}
+.cbtn small{display:block;color:#A9ACB4;font-size:12.5px;word-break:break-all}
+.ic.wa{background:#25D366}.ic.em{background:var(--blue)}.ic.li{background:#0A66C2}.ic.cv{background:#55575F}
+.cgrid2{display:grid;grid-template-columns:1.3fr .7fr;gap:20px}
+@media(max-width:900px){.cgrid2{grid-template-columns:1fr}}
+.cform{background:#fff;color:var(--ink);border-radius:20px;padding:26px}
+.cform h3{font-size:20px;color:var(--navy);margin-bottom:4px}
+.cform .hint{font-size:13.5px;color:var(--muted);margin-bottom:16px}
+.frow{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:560px){.frow{grid-template-columns:1fr}}
+.field{display:flex;flex-direction:column;gap:6px;margin-bottom:12px}
+.field label{font-size:13px;font-weight:600;color:#3A3C43}
+.field input,.field select,.field textarea{font:inherit;font-size:15px;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:var(--bg);color:var(--ink);outline:none;transition:.15s}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--blue);background:#fff;box-shadow:0 0 0 3px rgba(255,106,26,.15)}
+.field textarea{min-height:120px;resize:vertical}
+.fbtns{display:flex;gap:10px;flex-wrap:wrap;margin-top:4px}
+.btn-wa{background:#25D366;color:#fff}.btn-wa:hover{background:#1EB955}
+.btn-em{background:var(--navy);color:#fff}.btn-em:hover{background:#000}
+.ferr{color:#C62828;font-size:13px;margin-top:8px;display:none}
+.fok{display:none;margin-top:12px;background:#E3F8EF;color:#13875F;border-radius:10px;padding:10px 12px;font-size:13.5px}
+.cside{display:grid;gap:12px;align-content:start}
+.cbox{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:20px}
+.cbox h4{font-size:16px;margin-bottom:8px}
+.cbox p,.cbox li{color:#B7BAC2;font-size:14px}
+.cbox ul{margin-left:18px}
+.avail{display:flex;align-items:center;gap:8px;font-size:14px;color:#D8FFF0}
+/* floating whatsapp */
+.wafloat{position:fixed;right:20px;bottom:20px;z-index:90;display:flex;align-items:center;gap:10px;background:#25D366;color:#fff;border-radius:999px;padding:12px 18px 12px 14px;font-weight:700;font-size:14.5px;box-shadow:0 12px 30px rgba(37,211,102,.4);transition:.2s}
+.wafloat:hover{transform:translateY(-2px)}
+.wafloat svg{width:24px;height:24px;fill:#fff}
+@media(max-width:560px){.wafloat span{display:none}.wafloat{padding:14px}}
 .hero h1{font-size:clamp(46px,7vw,82px);font-weight:900}
 .hero h1 span{display:block;color:var(--blue2)}
 .tags{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px}
@@ -237,7 +287,7 @@ footer{padding:30px 0 40px;text-align:center;color:var(--muted);font-size:13px}
 
 <section id="about"><div class="wrap about">
   <div class="reveal"><span class="eyebrow">About me</span><h2 class="h2" id="aboutTitle"></h2><div id="aboutText"></div></div>
-  <div class="focus reveal" id="focus"></div>
+  <div class="reveal"><div class="aphoto" id="aphoto"></div><div class="focus" id="focus"></div></div>
 </div></section>
 
 <section id="skills" class="white"><div class="wrap">
@@ -274,17 +324,46 @@ footer{padding:30px 0 40px;text-align:center;color:var(--muted);font-size:13px}
   <div id="certWrap" style="display:none"><h2 class="h2" style="margin-top:40px">Certifications</h2><div class="edu" id="certs"></div></div>
 </div></section>
 
-<section id="contact" style="padding-top:20px"><div class="wrap"><div class="contact">
-  <div>
+<section id="contact" style="padding-top:20px"><div class="wrap"><div class="cwrap">
+  <div class="chead">
     <span class="eyebrow" style="color:#FFB27F">Let's talk</span>
     <h2 id="cTitle"></h2><p id="cText"></p>
-    <div class="cta" style="margin-top:22px">
-      <a class="btn btn-primary" id="cEmailBtn">Email me</a>
-      <a class="btn btn-ghost cv" target="_blank" rel="noopener">Download CV</a>
+  </div>
+  <div class="cbtns">
+    <a class="cbtn" id="bWa" target="_blank" rel="noopener"><span class="ic wa"><svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg></span><span><b>WhatsApp me</b><small id="sWa"></small></span></a>
+    <a class="cbtn" id="bEm"><span class="ic em"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.2-8 5-8-5V6l8 5 8-5v2.2z"/></svg></span><span><b>Email me</b><small id="sEm"></small></span></a>
+    <a class="cbtn" id="bLi" target="_blank" rel="noopener"><span class="ic li"><svg viewBox="0 0 24 24"><path d="M20.4 2H3.6A1.6 1.6 0 0 0 2 3.6v16.8A1.6 1.6 0 0 0 3.6 22h16.8a1.6 1.6 0 0 0 1.6-1.6V3.6A1.6 1.6 0 0 0 20.4 2zM8 19H5V9.5h3V19zM6.5 8.2a1.7 1.7 0 1 1 0-3.5 1.7 1.7 0 0 1 0 3.5zM19 19h-3v-4.6c0-1.1 0-2.5-1.5-2.5S12.8 13 12.8 14.3V19h-3V9.5h2.9v1.3c.4-.8 1.4-1.5 2.9-1.5 3.1 0 3.6 2 3.6 4.7V19z"/></svg></span><span><b>Connect on LinkedIn</b><small>View profile &amp; message</small></span></a>
+    <a class="cbtn cv" target="_blank" rel="noopener"><span class="ic cv"><svg viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 7V3.5L18.5 9H13zm-1 9-4-4h2.5v-3h3v3H16l-4 4z"/></svg></span><span><b>Download CV</b><small>PDF, 2 pages</small></span></a>
+  </div>
+  <div class="cgrid2">
+    <form class="cform" id="cform" novalidate>
+      <h3>Send a message</h3>
+      <p class="hint">Fill this in and choose how to send it. It opens WhatsApp or your email app with everything already written.</p>
+      <div class="frow">
+        <div class="field"><label for="fName">Your name *</label><input id="fName" required placeholder="Jane Smith"></div>
+        <div class="field"><label for="fEmail">Your email *</label><input id="fEmail" type="email" required placeholder="jane@company.com"></div>
+      </div>
+      <div class="frow">
+        <div class="field"><label for="fCompany">Company</label><input id="fCompany" placeholder="Company name"></div>
+        <div class="field"><label for="fType">I'm reaching out about</label>
+          <select id="fType"><option>Full-time remote role</option><option>Part-time / contract role</option><option>Freelance project</option><option>Agency partnership</option><option>Something else</option></select></div>
+      </div>
+      <div class="field"><label for="fMsg">Message *</label><textarea id="fMsg" required placeholder="Tell me about the role or project, your goals and current ad spend."></textarea></div>
+      <div class="fbtns">
+        <button type="button" class="btn btn-wa" id="sendWa"><svg style="width:18px;height:18px;fill:#fff" viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg> Send via WhatsApp</button>
+        <button type="button" class="btn btn-em" id="sendEm"><svg style="width:18px;height:18px;fill:#fff" viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.2-8 5-8-5V6l8 5 8-5v2.2z"/></svg> Send via Email</button>
+      </div>
+      <div class="ferr" id="ferr">Please fill in your name, a valid email and a message.</div>
+      <div class="fok" id="fok"></div>
+    </form>
+    <div class="cside">
+      <div class="cbox"><div class="avail"><span class="dot"></span>Available now</div><p style="margin-top:8px">Open to full-time remote, part-time and freelance work. Comfortable with UK and EU hours, flexible for US overlap.</p></div>
+      <div class="cbox"><h4>Best for</h4><ul><li>Meta, Google &amp; TikTok lead generation</li><li>Scaling ad accounts without CPL blowing up</li><li>Organic social growth and content systems</li><li>Shopify &amp; WordPress stores that convert</li></ul></div>
+      <div class="cbox"><h4>Based in</h4><p>Lahore, Pakistan (PKT, UTC+5)</p></div>
     </div>
   </div>
-  <div class="clist" id="clist"></div>
 </div></div></section>
+<a class="wafloat" id="waFloat" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.8-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6l.4-.5c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.2c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.2 5.1 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2c-1.5 0-3-.4-4.3-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg><span>Chat on WhatsApp</span></a>
 
 <footer id="footer"></footer>
 <div class="modal" id="modal" role="dialog" aria-modal="true"><div class="mbox" id="mbox"></div></div>
@@ -323,6 +402,7 @@ function render(){
     <p class="note">${esc(p.note)}</p>`;
 
   $("#aboutTitle").textContent=a.title;
+  $("#aphoto").innerHTML=s.photo?`<img src="${esc(s.photo)}" alt="${esc(s.firstName+" "+s.lastName)}" loading="lazy"><span class="chipx">${esc(s.firstName+" "+s.lastName)} &middot; Performance Marketer</span>`:""; if(!s.photo) $("#aphoto").style.display="none";
   $("#aboutText").innerHTML=a.paragraphs.map(t=>`<p>${esc(t)}</p>`).join("");
   $("#focus").innerHTML=a.focus.map(f=>`<div class="fcard"><h4>${esc(f.title)}</h4><p>${esc(f.text)}</p></div>`).join("");
 
@@ -343,16 +423,25 @@ function render(){
   }
 
   $("#cTitle").textContent=c.title; $("#cText").textContent=c.text;
-  $("#cEmailBtn").href="mailto:"+c.email;
-  $("#clist").innerHTML=`
-    <a class="citem" href="mailto:${esc(c.email)}"><small>Email</small><b>${esc(c.email)}</b></a>
-    <a class="citem" href="https://wa.me/${esc(c.whatsapp)}" target="_blank" rel="noopener"><small>Phone &amp; WhatsApp</small><b>${esc(c.phone)}</b></a>
-    <a class="citem" href="${esc(c.linkedin)}" target="_blank" rel="noopener"><small>LinkedIn</small><b>${esc(c.linkedin.replace(/^https?:\/\/(www\.)?/,""))}</b></a>`;
+  const waBase="https://wa.me/"+c.whatsapp, waTxt=encodeURIComponent(c.whatsappMessage||"Hi Abdul, ");
+  $("#bWa").href=waBase+"?text="+waTxt; $("#waFloat").href=waBase+"?text="+waTxt; $("#sWa").textContent=c.phone;
+  $("#bEm").href="mailto:"+c.email; $("#sEm").textContent=c.email;
+  $("#bLi").href=c.linkedin;
+  CONTACT=c;
   $("#footer").textContent=`© ${new Date().getFullYear()} ${s.firstName} ${s.lastName}. Performance Marketing Manager, Lahore, Pakistan.`;
   observe();
 }
 
-let active="All";
+let active="All", CONTACT=null;
+function formData(){
+  const v=id=>document.getElementById(id).value.trim();
+  const f={name:v("fName"),email:v("fEmail"),company:v("fCompany"),type:v("fType"),msg:v("fMsg")};
+  const ok=f.name&&/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(f.email)&&f.msg;
+  $("#ferr").style.display=ok?"none":"block";
+  return ok?f:null;
+}
+function bodyText(f){return `Hi Abdul,\n\n${f.msg}\n\nName: ${f.name}\nEmail: ${f.email}${f.company?"\nCompany: "+f.company:""}\nTopic: ${f.type}`;}
+function done(how){const el=$("#fok");el.textContent=`Opening ${how} with your message. If nothing opened, contact me directly at ${CONTACT.email} or WhatsApp ${CONTACT.phone}.`;el.style.display="block";}
 function renderCases(){
   const cs=D.caseStudies, cats=["All",...new Set(cs.map(c=>c.category))];
   $("#filters").innerHTML=cats.map(c=>`<button class="fbtn ${c===active?"on":""}" data-c="${esc(c)}">${esc(c)}<em>${c==="All"?cs.length:cs.filter(x=>x.category===c).length}</em></button>`).join("");
@@ -388,6 +477,8 @@ $("#filters").addEventListener("click",e=>{const b=e.target.closest(".fbtn");if(
 $("#cases").addEventListener("click",e=>{const b=e.target.closest(".open");if(b)openCase(b.dataset.id);});
 $("#modal").addEventListener("click",e=>{if(e.target.id==="modal"||e.target.closest(".close"))closeModal();});
 document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal();});
+$("#sendWa").addEventListener("click",()=>{const f=formData();if(!f)return;window.open("https://wa.me/"+CONTACT.whatsapp+"?text="+encodeURIComponent(bodyText(f)),"_blank","noopener");done("WhatsApp");});
+$("#sendEm").addEventListener("click",()=>{const f=formData();if(!f)return;location.href="mailto:"+CONTACT.email+"?subject="+encodeURIComponent(`${f.type}: ${f.name}${f.company?" ("+f.company+")":""}`)+"&body="+encodeURIComponent(bodyText(f));done("your email app");});
 $("#menuBtn").addEventListener("click",()=>$("#links").classList.toggle("open"));
 $("#links").addEventListener("click",e=>{if(e.target.tagName==="A")$("#links").classList.remove("open");});
 
